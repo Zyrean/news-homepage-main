@@ -1,14 +1,64 @@
 .wrapper {
-  height: 100%;
+  height: fit-content;
   width: 360px;
-  /* background-color: aqua; */
 }
+
 /* HEADER */
 
+/* Popup Menu Phone */
+
+.container-popup-phone {
+  /* display: none; */
+}
+
+.container-background-blur {
+  position: fixed;
+  left: 0%;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  opacity: 50%;
+  z-index: 600;
+}
+
+.popup-menu-phone {
+  position: fixed;
+  right: 0%;
+  height: 100vh;
+  width: 270px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  z-index: 700;
+}
+
+.popup-menu-phone img {
+  height: 30px;
+  width: 30px;
+  align-self: flex-end;
+  margin: 20px 20px 100px 0px;
+  cursor: pointer;
+}
+
+.popup-menu-phone-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-left: 20px;
+}
+
+.popup-menu-phone a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+/* Burger menu  */
+
 nav {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  /* background-color: aquamarine; */
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,6 +71,7 @@ nav {
 .img-menu {
   float: right;
   height: 17px;
+  cursor: pointer;
 }
 /* TODO IN DESK */
 .container-nav-selections {
@@ -32,7 +83,6 @@ nav {
 .container-web-3 {
   display: flex;
   flex-direction: column;
-  /* background-color: brown; */
 }
 
 .container-web-3-info h1 {
@@ -43,7 +93,7 @@ nav {
 }
 
 .container-web-3-info p {
-  line-height: 24px;
+  color: var(--darkGrayishBlue);
 }
 
 .btn-read-more {
@@ -52,16 +102,21 @@ nav {
   letter-spacing: 1.2px;
   color: white;
   height: 4rem;
-  width: 14rem;
+  width: 16rem;
   border: 0px;
   margin: 10px 0px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn-read-more:hover {
+  background-color: var(--veryDarkBlue);
 }
 
 .container-new {
   background-color: var(--veryDarkBlue);
   padding: 10px 20px 2px;
-  margin: 30px 0px;
-  /* border-bottom: 1px solid var(--grayishBlue); */
+  margin: 50px 0px;
 }
 
 .container-new-question {
@@ -72,11 +127,18 @@ nav {
 .container-new h2 {
   font-size: 3rem;
   color: var(--softOrange);
+  margin-top: 10px;
+  margin-bottom: 34px;
 }
 
 .container-new h3 {
   font-size: 2rem;
   color: white;
+}
+
+.container-new h3:hover {
+  color: var(--sofrRed);
+  cursor: pointer;
 }
 
 .container-new p {
@@ -90,11 +152,10 @@ nav {
 
 .container-artical-all {
   margin-top: 60px;
-  padding-bottom: 600px;
+  padding-bottom: 40px;
 }
 
 .container-article {
-  /* background-color: brown; */
   display: flex;
   align-items: center;
   margin-bottom: 30px;
@@ -121,15 +182,22 @@ nav {
 
 .container-article h3 {
   margin: 10px 0px 10px 20px;
-  font-family: ;
+  font-weight: 800;
+}
+
+.container-article h3:hover {
+  color: var(--sofrRed);
+  cursor: pointer;
 }
 
 .container-article p {
-  line-height: 24px;
   color: var(--darkGrayishBlue);
 }
 
 /* OTHERS */
 .hidden {
   display: none;
+}
+
+@media screen and (min-width: 1440px) {
 }
