@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Space+Grotesk:wght@500&display=swap");
+
+:root {
+  /* hsl(228, 45%, 44%) */
+  --softOrange: hsl(35, 77%, 62%);
+  --sofrRed: hsl(5, 85%, 63%);
+  --off-white: hsl(36, 100%, 99%);
+  --grayishBlue: hsl(233, 8%, 79%);
+  --darkGrayishBlue: hsl(236, 13%, 42%);
+  --veryDarkBlue: hsl(240, 100%, 5%);
+
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px auto;
+  /* font-family: "Inter", sans-serif; */
+}
+
+p {
+  font-size: 1.5rem;
+  color: var(--grayishBlue);
+}
+
+body {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}

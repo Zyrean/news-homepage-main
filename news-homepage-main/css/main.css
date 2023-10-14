@@ -1,0 +1,135 @@
+.wrapper {
+  height: 100%;
+  width: 360px;
+  /* background-color: aqua; */
+}
+/* HEADER */
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-logo {
+  height: 25px;
+}
+
+.img-menu {
+  float: right;
+  height: 17px;
+}
+/* TODO IN DESK */
+.container-nav-selections {
+  display: flex;
+}
+
+/* SECTION1 */
+
+.container-web-3 {
+  display: flex;
+  flex-direction: column;
+  /* background-color: brown; */
+}
+
+.container-web-3-info h1 {
+  font-size: 4.4rem;
+  line-height: 46px;
+  margin: 20px 0px;
+  font-weight: 800;
+}
+
+.container-web-3-info p {
+  line-height: 24px;
+}
+
+.btn-read-more {
+  background-color: var(--sofrRed);
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1.2px;
+  color: white;
+  height: 4rem;
+  width: 14rem;
+  border: 0px;
+  margin: 10px 0px;
+}
+
+.container-new {
+  background-color: var(--veryDarkBlue);
+  padding: 10px 20px 2px;
+  margin: 30px 0px;
+  /* border-bottom: 1px solid var(--grayishBlue); */
+}
+
+.container-new-question {
+  border-bottom: 1px solid var(--grayishBlue);
+  margin-bottom: 30px;
+}
+
+.container-new h2 {
+  font-size: 3rem;
+  color: var(--softOrange);
+}
+
+.container-new h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+.container-new p {
+  color: var(--grayishBlue);
+  margin-bottom: 30px;
+}
+
+.new-question-3 {
+  border: 0px;
+}
+
+.container-artical-all {
+  margin-top: 60px;
+  padding-bottom: 600px;
+}
+
+.container-article {
+  /* background-color: brown; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.container-article img {
+  height: 130px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-article h2,
+.container-article p {
+  margin: 0px 0px 0px 20px;
+}
+
+.container-article h2 {
+  color: var(--grayishBlue);
+}
+
+.container-article h3 {
+  margin: 10px 0px 10px 20px;
+  font-family: ;
+}
+
+.container-article p {
+  line-height: 24px;
+  color: var(--darkGrayishBlue);
+}
+
+/* OTHERS */
+.hidden {
+  display: none;
+}
