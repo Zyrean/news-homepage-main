@@ -7,10 +7,6 @@
 
 /* Popup Menu Phone */
 
-.container-popup-phone {
-  /* display: none; */
-}
-
 .container-background-blur {
   position: fixed;
   left: 0%;
@@ -87,6 +83,10 @@ nav {
 
 .image-web-3 {
   width: 100%;
+}
+
+.image-web-3-desk {
+  display: none;
 }
 
 .container-web-3-info h1 {
@@ -203,6 +203,8 @@ nav {
   display: none;
 }
 
+/*-----------------------------------------------------------------------------------------------------*/
+
 @media screen and (min-width: 1440px) {
   .wrapper {
     height: fit-content;
@@ -237,7 +239,15 @@ nav {
     display: flex;
     flex-direction: column;
   }
-  /* SPÄTER ANPASSEN DAMIT BILD NICHT VERZOGEN IST */
+
+  .image-web-3-desk {
+    display: block;
+  }
+
+  .image-web-3 {
+    display: none;
+  }
+
   .container-web-3 img {
     height: 300px;
     width: 100%;
@@ -271,8 +281,9 @@ nav {
   /* SECTION NEW */
 
   .container-new {
-    width: 800px;
+    width: 860px;
     margin: 0px 0px;
+    /* align-self: flex-end; */
   }
 
   /* SECTION ARTICLE */

@@ -14,7 +14,6 @@ const hideMenuPhone = function () {
 
 btnMenuOpenPhone.addEventListener("click", function () {
   displayMenuPhone();
-  console.log("test");
 });
 
 btnMenuClosePhone.addEventListener("click", function () {
