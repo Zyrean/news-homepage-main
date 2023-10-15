@@ -69,10 +69,6 @@ nav {
   height: 17px;
   cursor: pointer;
 }
-/* TODO IN DESK */
-/* .container-nav-selections {
-  display: flex;
-} */
 
 /* SECTION1 */
 
@@ -214,7 +210,6 @@ nav {
   .img-menu {
     display: none;
   }
-  /* TODO IN DESK */
   .container-nav-selections {
     display: flex;
     gap: 40px;
@@ -260,7 +255,6 @@ nav {
     margin-top: 10px;
   }
 
-  /* LINE BRAKE HERE */
   .container-web-3-info h1 {
     font-size: 5.4rem;
     line-height: 50px;
@@ -283,7 +277,6 @@ nav {
   .container-new {
     width: 860px;
     margin: 0px 0px;
-    /* align-self: flex-end; */
   }
 
   /* SECTION ARTICLE */

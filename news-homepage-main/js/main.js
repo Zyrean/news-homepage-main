@@ -12,10 +12,6 @@ const hideMenuPhone = function () {
   menuPhone.classList.add("hidden");
 };
 
-btnMenuOpenPhone.addEventListener("click", function () {
-  displayMenuPhone();
-});
+btnMenuOpenPhone.addEventListener("click", displayMenuPhone);
 
-btnMenuClosePhone.addEventListener("click", function () {
-  hideMenuPhone();
-});
+btnMenuClosePhone.addEventListener("click", hideMenuPhone);
